@@ -1,0 +1,24 @@
+    h2{
+        color: grey;
+    }
+
+    .footer-img{
+        height: 250px;
+        width:250px;
+        position: relative;
+        text-align: center;
+    }
+
+    .computer{
+        background-image: url(img/monitor.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .graph{
+        background-image: url(img/graph.jpg);
+    }
+
+    .footer-text{    
+        color: white;
+      
+    }
