@@ -1,10 +1,28 @@
-    h2{
+body{
+    font-family: sans-serif;
+}
+
+header>p>span{
+    color: aqua;
+}
+
+.sottolineato{
+    background-color: yellow;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
         color: grey;
     }
 
     .footer-img{
-        height: 250px;
-        width:250px;
+        height: 230px;
+        width:230px;
         position: relative;
         text-align: center;
     }
@@ -20,5 +38,4 @@
 
     .footer-text{    
         color: white;
-      
     }
