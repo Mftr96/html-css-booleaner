@@ -6,16 +6,46 @@ header>p>span{
     color: aqua;
 }
 
+.pattern{
+    background-image: url(img/pattern.png);
+    background-color: lightskyblue;
+    height: 10%;
+    background-size: 43%;
+}
+
+header>p{
+    color: grey;
+}
+
+#logo{
+    height: 50%;
+    width: 25%;
+    padding-top: 4%;
+}
 .sottolineato{
     background-color: yellow;
+}
+
+figure>img{
+   height:80vh;
+   width:49%  ;
+
 }
 
 table{
     table-layout: fixed;
     width: 100%;
     text-align: center;
+    border-collapse: collapse;
 }
 
+thead{
+    background-color: rgb(11, 88, 233);
+}
+
+.dispari{
+    background-color: aqua;
+}
 h2{
         color: grey;
     }
@@ -24,7 +54,7 @@ h2{
         height: 230px;
         width:230px;
         position: relative;
-        text-align: center;
+       
     }
 
     .computer{
@@ -38,4 +68,7 @@ h2{
 
     .footer-text{    
         color: white;
+        position: absolute;
+        top: 4%;
+        left: 4%;
     }
